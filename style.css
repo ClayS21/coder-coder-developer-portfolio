@@ -37,15 +37,19 @@ body {
     line-height: 1.56;
 }
 
-a {
+.header__social {
     display: inline-block;
+}
+
+a {
+    transition: color 250ms ease-in-out;
 }
 
 a:hover {
     color: var(--accent);
 }
 
-a:hover > svg > path {
+.header__social:hover > svg > path {
     fill: var(--accent);
 }
 
@@ -61,7 +65,7 @@ a:hover > svg > path {
     }
 }
 
-.header-home {
+.header__home {
     font-size: 1.5rem;
     font-size: clamp(1.5rem, 1.02rem + 2.04vw, 2rem);
     color: var(--text-1);
