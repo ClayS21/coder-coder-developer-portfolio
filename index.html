@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
+    <title>Front-End Mentor</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="imgs/ClayCoder.png" type="image/png">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
@@ -14,7 +14,7 @@
     <header class="header">
         <div class="wrapper">
             <nav class="header__nav">
-                <a href="/" class="header__home">Cleiton Siqueira</a>
+                <a href="/" class="header__home">adamkeyes</a>
                 <a href="" class="header__social">
                     <svg xmlns="http://www.w3.org/2000/svg" role="img" width="25" height="24" aria-labelledby="sGitHub">
                         <title id="sGitHub">GitHub</title>
@@ -49,9 +49,29 @@
     </header>
 
     <main id="main">
-        <div class="wrapper">
-            <h1>Prazer, sou Cleiton</h1>
-        </div>
+
+        <section class="hero">
+            <div class="wrapper hero__wrapper">
+
+                <picture class="hero__image">
+                    <source media="(min-width: 62.5em)" srcset="/assets/images/image-profile-desktop.webp">
+                    <source media="(min-width: 37.5em)" srcset="/assets/images/image-profile-tablet.webp">
+                    <img src="/assets/images/image-profile-mobile.webp" alt="Adam Keyes">
+                </picture>
+
+                <div class="hero__text">
+                    <h1 class="hero__headline">Nice to meet you! I'm Adam Keyes.</h1>
+
+                    <p class="hero__description">
+                        Based in the UK, I'm a front-end developer passionate about building accessible web apps that users love.
+                    </p>
+
+                    <a href="#" class="hero__contact">Contact Me</a>
+                </div>
+
+            </div>
+        </section>
+
     </main>
 
     <footer class="footer"></footer>

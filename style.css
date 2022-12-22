@@ -102,3 +102,21 @@ a:hover {
         margin-inline-end: auto;
     }
 }
+
+/* HERO */
+
+.hero {}
+
+.hero__wrapper {
+    position: relative;
+}
+
+.hero__image {
+    position: absolute;
+}
+
+.hero__text {}
+
+.hero__description {}
+
+.hero__contact {}
