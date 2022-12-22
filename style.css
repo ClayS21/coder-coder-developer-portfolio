@@ -45,6 +45,21 @@ p {
     margin-top: 0;
 }
 
+h1,
+h2,
+h3 {
+    line-height: 1;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-size: clamp(2.5rem, 0.7rem + 7.68vw, 5.5rem);
+}
+
+p {
+    line-height: 1.5;
+}
+
 .header__social svg {
     display: block;
 }
@@ -128,7 +143,11 @@ a:hover {
 .hero__text {
     position: relative;
     text-align: center;
-    top: 295px;
+    margin-top: 335px;
+}
+
+h1 > span {
+    border-bottom: 4px solid var(--accent);
 }
 
 .hero__description {}
