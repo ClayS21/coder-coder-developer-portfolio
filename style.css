@@ -113,9 +113,13 @@ a:hover {
 
 .hero__image {
     position: absolute;
+    left: 50%;
+    translate: -50%;
 }
 
-.hero__text {}
+.hero__text {
+    text-align: center;
+}
 
 .hero__description {}
 
